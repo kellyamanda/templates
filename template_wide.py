@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Set to wide mode, add page title, change layout centering, or add a favicon
-st.set_page_config(page_title="Streamlit Template: Wide Mode", page_icon="🦊", layout="wide")
+st.set_page_config(page_title="Streamlit Template: Wide Mode", layout="wide")
 
 # Load your data, decorating with @st.cache to cache data for performance
 @st.cache
