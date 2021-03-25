@@ -38,7 +38,7 @@ with widget_col3:
     st.time_input("Pick a time")
 
 # Lay out the results
-st.header("The results yada yada")
+st.header("A header about the results")
 st.write("Explainer text about the results. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.")
 
 
