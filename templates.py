@@ -11,7 +11,7 @@ with title_col2:
     st.write("")
     st.write("")
     st.write("""
-        &nbsp;&nbsp; Quickly get started with different app layouts.
+        &nbsp;&nbsp; Quickly get started with some app layouts.
         #
     """)
 
