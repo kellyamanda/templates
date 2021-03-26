@@ -5,7 +5,7 @@ import pandas as pd
 import altair as alt
 
 # Set to wide mode, add page title, change layout centering, or add a favicon
-st.set_page_config(page_title="Streamlit Template: Big Chart", layout="wide")
+st.set_page_config(page_title="Streamlit Template: Complex Menu", layout="wide")
 
 # Load your data, decorating your function with @st.cache to cache data for performance
 @st.cache
