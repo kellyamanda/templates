@@ -47,6 +47,7 @@ with st.beta_expander("Adjust chart values"):
         st.date_input("Select date")
         st.time_input("Pick a time")
 
+st.write("#")
 
 # Lay out your data and visualizations.
 
