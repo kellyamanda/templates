@@ -27,7 +27,10 @@ with title_col2:
     st.title("Streamlit Template: Logo Style!")
 
 with title_col3:
-    st.write("Showing data for January 30th")
+    st.write("""
+    #
+    Showing data for **January 30th**
+    """)
 
 # Put your widgets in an expander and then in that lay out your widgets in a grid
 with st.beta_expander("Adjust chart values"):
