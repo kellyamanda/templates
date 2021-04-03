@@ -27,14 +27,15 @@ with title_col2:
     st.title("Streamlit Template: Logo Style!")
 
 with title_col3:
-    st.date_input("Select date",help="An example of a tooltip you can add to your widgets")
+    date = st.empty()
+    st.write("Showing data for " date)
 
 # Put your widgets in an expander and then in that lay out your widgets in a grid
 with st.beta_expander("Adjust chart values"):
     widget_col1, widget_col2, widget_col3 = st.beta_columns(3)
 
     with widget_col1:
-        st.multiselect("Choose data", ["a", "b", "c"])
+        st.multiselect("Choose data", ["a", "b", "c"], help="An example tooltip you can add")
         st.slider("Select value",1,100)
 
     with widget_col2:
@@ -42,7 +43,7 @@ with st.beta_expander("Adjust chart values"):
         st.text_input("Add text")
 
     with widget_col3:
-        st.date_input("Select another date")
+        date = st.date_input("Select another date")
         st.time_input("Pick a time")
 
 st.write("#")
