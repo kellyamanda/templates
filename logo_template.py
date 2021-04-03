@@ -21,7 +21,7 @@ data = get_data()
 title_col1, title_col2, title_col3 = st.beta_columns(3)
                                                      
 with title_col1:
-    st.image("thumbnails/logo_crown.png")
+    st.image("thumbnails/logo_crown.png", width=100)
                                                      
 with title_col2:
     st.title("Streamlit Template: Logo Style!")
