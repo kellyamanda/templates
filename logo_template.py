@@ -18,7 +18,7 @@ def get_data():
 data = get_data()
 
 # Set a title for your app
-title_col1, title_col2, title_col3 = st.beta_columns(3)
+title_col1, title_col2, title_col3 = st.beta_columns((.25,2,1))
                                                      
 with title_col1:
     st.image("thumbnails/logo_crown.png", width=100)
