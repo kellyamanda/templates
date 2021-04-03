@@ -27,13 +27,7 @@ with title_col2:
     st.title("Streamlit Template: Logo Style!")
 
 with title_col3:
-    # Add some explainer text so users know how and why to use your app and what the widgets control
-    st.write("")
-    st.write("")
-    st.write("""
-
-    Explainer text about something. Lorem ipsum dolor sit amet, consectetur adipiscing.
-    """)
+    st.date_input("Select date",help="An example of a tooltip you can add to your widgets")
 
 # Put your widgets in an expander and then in that lay out your widgets in a grid
 with st.beta_expander("Adjust chart values"):
@@ -48,7 +42,7 @@ with st.beta_expander("Adjust chart values"):
         st.text_input("Add text")
 
     with widget_col3:
-        st.date_input("Select date")
+        st.date_input("Select another date")
         st.time_input("Pick a time")
 
 st.write("#")
