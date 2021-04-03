@@ -20,7 +20,7 @@ data = get_data()
 # Set a title for your app
 title_col1, title_col2, title_col3 = st.beta_columns((1,2,1)
 with title_col1:
-    st.images("thumbnails/logo_crown.png")
+    st.image("thumbnails/logo_crown.png")
                                                      
 with title_col2:
     st.title("Streamlit Template: Logo Style!")
