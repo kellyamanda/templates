@@ -28,7 +28,7 @@ with title_col2:
 
 with title_col3:
     date = st.empty()
-    st.write("Showing data for " date)
+    st.write("Showing data for ", date)
 
 # Put your widgets in an expander and then in that lay out your widgets in a grid
 with st.beta_expander("Adjust chart values"):
