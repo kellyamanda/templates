@@ -90,7 +90,7 @@ with st.beta_expander("Adjust chart values"):
         st.slider("Select rate",1,100)
 
     with widget_col2:
-        st.number_input("Select product category", 1,10)
+        st.number_input("Change base threshhold", 5,10)
         st.radio("Select one", ("Default", "Advanced"))
 
     with widget_col3:
