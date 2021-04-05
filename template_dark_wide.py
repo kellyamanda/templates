@@ -6,7 +6,7 @@ import altair as alt
 from vega_datasets import data
 
 # Set to wide mode, add page title, change layout centering, or add a favicon
-st.set_page_config(page_title="Streamlit Dark and Wide", layout="wide")
+st.set_page_config(page_title="Streamlit Cohort Experimentation App", layout="wide")
 
 source = data.unemployment_across_industries.url
 
