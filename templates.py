@@ -2,13 +2,12 @@ import streamlit as st
 
 st.set_page_config(page_title="Streamlit Templates")
 
-title_col1, title_col2 = st.beta_columns(2)
+title_col1, title_col2 = st.columns(2)
 with title_col1:
-    st.title("Streamlit Templates")
+    st.subheader("Streamlit Templates")
 
 with title_col2:
     # Add some explainer text so users know how and why to use your app and what the widgets control
-    st.write("")
     st.write("")
     st.write("""
         &nbsp;&nbsp; Quickly get started with some app layouts.
@@ -33,7 +32,7 @@ GITHUB_OWNER = "streamlit"
 
 border_color = "lightgrey"
 
-cols_templates = st.beta_columns(4)
+cols_templates = st.columns(4)
 for col, template in zip(cols_templates, TEMPLATES):
 
     # Get repo name for this theme (to link to correct deployed app)-
@@ -53,7 +52,7 @@ for col, template in zip(cols_templates, TEMPLATES):
     col.write(f"<p align=center>{template_descriptor}</p>", unsafe_allow_html=True)
 
 st.write("")
-cols = st.beta_columns(4)
+cols = st.columns(4)
 for col, theme in zip(cols, THEMES):
 
     # Get repo name for this theme (to link to correct deployed app)-
